@@ -22,7 +22,7 @@ weatherForm.addEventListener('submit', (e) =>{
             }else{
                 lbllocation.innerHTML = "Weather in " + data.name + " :"
                 const str = data.descriptions + ' It is currently '+data.temperature+'. But it feels like '+data.feelslike +' Humidity is '+data.temperature
-                result.innerHTML = JSON.stringify(data)
+                result.innerHTML = str
             }
         })
     })
