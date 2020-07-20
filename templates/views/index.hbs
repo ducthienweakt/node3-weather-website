@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <title>Weather</title>
+    <title>About</title>
+    <link rel="shortcut icon" href="/assets/img//favicon.ico">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <div class="main-content-details">
+            <p>Use this to get the your Weather!</p>
+            <form  id="search-form" class="search-form">
+                <input type="text" placeholder="location" id="search-input">
+                <button id="search-btn">Search</button>
+            </form>
+            <h2 id="address"></h2>
+            <p id="result"> </p>
+        </div>
+
+
+
+    </div>
+
+    {{>footer}}
+    <script src="/assets/js/app.js"></script>
+</body>
+
+</html>
