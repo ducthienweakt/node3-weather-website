@@ -1,7 +1,7 @@
- A real-time chat app with a client-side companion
+ A weather application that interacts with the MapBox and Dark Sky APIs
 - Node.js
 - Express
-- Socket.IO
+- Handlebar
 - GitHub
 - Application deployment with Heroku
-Demo url: https://dean-chat-app.herokuapp.com/
+Demo url: https://dean-weather-app.herokuapp.com/
